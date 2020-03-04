@@ -1,0 +1,29 @@
+{
+  "name": "hashrt",
+  "description": "Bot to retweet hashtag.",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "sucrase-node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjkGustavo/hashrt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kjkGustavo/hashrt/issues"
+  },
+  "homepage": "https://github.com/kjkGustavo/hashrt",
+  "keywords": ["bot", "twitter", "retweet"],
+  "author": "kjkGustavo",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11",
+    "sucrase": "^3.12.1"
+  }
+}
